@@ -1,0 +1,55 @@
+.teams-container{
+    width: 95%;
+    margin-left:2.5%;
+    margin-right: 2.5%;
+}
+.teams-list{
+    display: flex;
+    flex-direction: column;
+}
+.teams-list .meetings-card {
+width: 100%;
+padding-left: 30px ;
+padding-bottom: 30px ;
+
+}
+
+.add-more-icon{
+    width: 65px;
+    height: 65px;
+}
+.add-more-meetings{
+    margin-top: 15px;
+    border: 1px solid gray;
+    padding: 70px;
+    width:fit-content;
+    
+    border-radius: 4px;
+}
+.teams-title-message{
+    font-weight: 500;
+    color: gray;
+    margin-top: 15px;
+}
+
+@media (min-width: 900px)
+{
+    .teams-list{
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+       
+        
+    }
+    .teams-list .meetings-card, .add-more-meetings{
+        width: 32%;
+
+       
+       
+    }
+    .add-more-meetings{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
