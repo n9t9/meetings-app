@@ -147,7 +147,23 @@
     -webkit-appearance: none;
     -moz-appearance: none;
 }
-
+.add-button{
+           
+          
+    display: inline-block;
+    width:fit-content;
+    height: 40px;
+    background-color: #007791 ;
+    border-radius: 4px;
+    padding: 10px;
+}
+.start-time{
+    width: 72px;
+}
+#add-meeting-description-text{
+    color: white;
+    margin-bottom: 5px;
+}
 .arrows {
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA3klEQVRIS+3VMU9CMRTF8d8zBL+aizoQFhx0kUk33RzdYMNFXUFnYeGrYYyaJiUxJHDLSxodbNKpfeffc9/pbaPyaCrr+3OA++z4rtT5Pg5GuMnCY9yWQEoBE1xhlUUP8YDrCBIB0vojLvGO0yz4hm4JJAKcYYoPHGOZAUdYoIMBXrc5iQAHeMlzviFygj7O8dkWEJU4XI8chALRhn9AVKHf70VRTHu4wFfbmKZLNKt50dLBnna0imcMd/2I0phWa3Y/D1e1Xa9BCZJG0VuQNpaWKMx72xS1Fl5/WN3BN+AgJhnZQlq4AAAAAElFTkSuQmCC');
     background-position: calc(100% - .5rem), 100% 0;
@@ -162,9 +178,9 @@
     background-color: #007791;
     color: white;
     border-radius: 5px;
-    width: 50px;
-    height: 35px;
-    padding: 5px;
+    width:fit-content;
+    height:fit-content;
+    padding: 10px;
     padding-top: 8px;
     padding-left: 7px;
 }
