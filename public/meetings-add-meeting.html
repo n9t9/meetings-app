@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="external/normalize.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/meetings.css">
+
+    <style>
+       .add-button{
+           
+          
+           display: inline-block;
+           width:fit-content;
+           height: 40px;
+           background-color: #007791 ;
+           border-radius: 4px;
+           padding: 10px;
+       }
+       .start-time{
+           width: 72px;
+       }
+       #add-meeting-description-text{
+           color: white;
+           margin-bottom: 5px;
+       }
+    </style>
+</head>
+
+<body>
+    <div class="menu-container">
+        <nav class="menu">
+            <ul class="main-menu">
+                <li class="main-menu-item"><a href="#">Calendar</a></li>
+                <li class="main-menu-item"><a href="#">Meetings</a></li>
+                <li class="main-menu-item"><a href="#">Teams</a></li>
+            </ul>
+            <div class="bars">
+                <h1 class="title">My Meetings</h1>
+                <img src="images/bars-solid.svg" class="menu-icon" alt="main menu icon">
+
+
+            </div>
+            <ul class="logout-menu">
+
+                <li class="logout-menu-item ">
+                    Hello &nbsp;<a href="mailto:jane.doe@example.com" class="nav-email">jane.doe@example.com</a>
+                </li>
+                <li class="logout-menu-item">
+                    Logout
+                </li>
+            </ul>
+        </nav>
+        <div class="page-name">
+
+            <h2>Meetings</h2>
+        </div>
+    </div>
+
+    <div class="meetings-form-container">
+        <ul class="meetings-menu">
+            <li class="meetings-menu-item1 inactive-meetings-menu-item">
+                <p ><a href="./meetings-filter-search.html" > Filter / Search meetings</a></p>
+            </li>
+            <li class="meetings-menu-item2 active-meetings-menu-item">
+                <p class="active-menu"><a href="./meetings-filter-search.html"> Add a meeting </a></p>
+            </li>
+        </ul>
+        <div class="meetings-form-div">
+            <div class="search-meeting-title">
+                <h3>Add a new meeting<h3>
+            </div>
+            <form action="#" method="post" class="meetings-form">
+                <div class="meetings-form-item-label"><label for="add-date">Date</label></div>
+                <input type="date" name="add-date" id="add-date" class="meetings-form-item">
+                <div class="meetings-form-item-label"><label for="start-time">Start time (hh: mm)</label></div>
+                <div class="meetings-form-item">
+<select name="start-time" id="start-time" class="start-time">
+    <option value="0" selected>0</option>
+</select>
+<span>:</span>
+<select name="start-time-minutes" id="start-time-minutes" class="start-time">
+    <option value="0" selected>0</option>
+</select>
+                </div>
+                <div class="meetings-form-item-label"><label for="meeting description">Description</label></div>
+                
+             <textarea name="meeting description" id="meetin-description" cols="30" rows="10" class="meetings-form-item" placeholder="what is the agenda of the meeting"></textarea>
+             <div class="meetings-form-item-label"><label for="meeting description">Email ID's of Attendees, or team's short</label></div>
+             <input type="text" class="meetings-form-item" placeholder="john@example.com, @annual-day" aria-describedby="add-meeting-description-text">
+             <p id="add-meeting-description-text">
+Separate email ID/ team short name by commas. <br>
+- team short names always begin with @
+             </p>
+                <span aria-label="add meetings" class="meetings-form-input add-button">Add Meeting</span>
+            </form>
+
+        </div>
+        
+            
+           
+        </div>
+
+
+
+
+
+</body>
+
+</html>

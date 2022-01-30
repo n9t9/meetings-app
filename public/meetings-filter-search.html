@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="external/normalize.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/meetings.css">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="menu-container">
+        <nav class="menu">
+            <ul class="main-menu">
+                <li class="main-menu-item"><a href="#">Calendar</a></li>
+                <li class="main-menu-item"><a href="#">Meetings</a></li>
+                <li class="main-menu-item"><a href="#">Teams</a></li>
+            </ul>
+            <div class="bars">
+                <h1 class="title">My Meetings</h1>
+                <img src="images/bars-solid.svg" class="menu-icon" alt="main menu icon">
+
+
+            </div>
+            <ul class="logout-menu">
+
+                <li class="logout-menu-item ">
+                    Hello &nbsp;<a href="mailto:jane.doe@example.com" class="nav-email">jane.doe@example.com</a>
+                </li>
+                <li class="logout-menu-item">
+                    Logout
+                </li>
+            </ul>
+        </nav>
+        <div class="page-name">
+
+            <h2>Meetings</h2>
+        </div>
+    </div>
+
+    <div class="meetings-form-container">
+        <ul class="meetings-menu">
+            <li class="meetings-menu-item1 active-meetings-menu-item">
+                <p class="active-menu"><a href="./meetings-filter-search.html" > Filter / Search meetings</a></p>
+            </li>
+            <li class="meetings-menu-item2  inactive-meetings-menu-item">
+                <p><a href="./meetings-add-meeting.html"> Add a meeting </a></p>
+            </li>
+        </ul>
+        <div class="meetings-form-div">
+            <div class="search-meeting-title">
+                <h3>Search for meetings<h3>
+            </div>
+            <form action="#" method="post" class="meetings-form">
+                <div class="meetings-form-item-label"><label for="date">Date</label></div>
+                <select name="date" id="date" class="meetings-form-item">
+                    <option value="All" selected>All</option>
+                    <option value="22/22/22">22/22/22</option>
+                    <option value="23/22/22">23/22/22</option>
+                    <option value="24/22/22">24/22/22</option>
+                    <option value="25/22/22">25/22/22</option>
+                </select>
+                <div class="meetings-form-item-label"><label for="search">Search for</label></div>
+                <textarea class="meetings-form-item search"
+                    placeholder="Search using words which describe the meaning"></textarea>
+                <div class="meetings-form-item-label button-container"><label for="search-button"
+                        id="button-label">Search</label>
+                    <button id="search-button" name="search-button"></button>
+                </div>
+
+
+
+            </form>
+
+        </div>
+        <div class="search-criteria-text">
+            <h2>Meetings matching search criteria</h2>
+        </div>
+        <div class="meetings-list">
+            <div class="meetings-card" aria-label="meeting details">
+                <div class="card-top-section">
+                    <h4 class="meeting-date">12 Septermber 2020 <span class="meeting-time"> 06:00 07:00</span></h4>
+                    Project kickoff
+                    <div aria-label="Excuse yourself" class="excuse-button">Excuse yourself</div>
+                </div>
+                <div class="card-bottom-section">
+                    <h5>
+                        Attendees:
+                    </h5>
+                    <p>
+                        mark@example.com; jane@example.com
+                    </p>
+
+
+                    <select class="arrows">
+                        <option value="select member">select member</option>
+
+                        <option value="mark@example.com">mark@example.com</option>
+                        <option value="mark@example.com">mark@example.com</option>
+                        <option value="mark@example.com">mark@example.com</option>
+                        <option value="mark@example.com">mark@example.com</option>
+                    </select>
+                    <span aria-label="add members button" class="add-button">Add</span>
+
+                </div>
+            </div>
+            <div class="meetings-card" aria-label="meeting details">
+                <div class="card-top-section">
+                    <h4 class="meeting-date">12 Septermber 2020 <span class="meeting-time"> 06:00 07:00</span></h4>
+                    Project kickoff
+                    <div aria-label="Excuse yourself" class="excuse-button">Excuse yourself</div>
+                </div>
+                <div class="card-bottom-section">
+                    <h5>
+                        Attendees:
+                    </h5>
+                    <p>
+                        mark@example.com; jane@example.com
+                    </p>
+
+
+                    <select class="arrows">
+                        <option value="select member">select member</option>
+
+                        <option value="mark@example.com">mark@example.com</option>
+                        <option value="mark@example.com">mark@example.com</option>
+                        <option value="mark@example.com">mark@example.com</option>
+                        <option value="mark@example.com">mark@example.com</option>
+                    </select>
+                    <span aria-label="add members button" class="add-button">Add</span>
+
+                </div>
+            </div>
+            <div class="meetings-card" aria-label="meeting details">
+                <div class="card-top-section">
+                    <h4 class="meeting-date">12 Septermber 2020 <span class="meeting-time"> 06:00 07:00</span></h4>
+                    Project kickoff
+                    <div aria-label="Excuse yourself" class="excuse-button">Excuse yourself</div>
+                </div>
+                <div class="card-bottom-section">
+                    <h5>
+                        Attendees:
+                    </h5>
+                    <p>
+                        mark@example.com; jane@example.com
+                    </p>
+
+
+                    <select class="arrows">
+                        <option value="select member">select member</option>
+
+                        <option value="mark@example.com">mark@example.com</option>
+                        <option value="mark@example.com">mark@example.com</option>
+                        <option value="mark@example.com">mark@example.com</option>
+                        <option value="mark@example.com">mark@example.com</option>
+                    </select>
+                    <span aria-label="add members button" class="add-button">Add</span>
+
+                </div>
+            </div>
+            <div class="meetings-card" aria-label="meeting details">
+                <div class="card-top-section">
+                    <h4 class="meeting-date">12 Septermber 2020 <span class="meeting-time"> 06:00 07:00</span></h4>
+                    Project kickoff
+                    <div aria-label="Excuse yourself" class="excuse-button">Excuse yourself</div>
+                </div>
+                <div class="card-bottom-section">
+                    <h5>
+                        Attendees:
+                    </h5>
+                    <p>
+                        mark@example.com; jane@example.com
+                    </p>
+
+
+                    <select class="arrows">
+                        <option value="select member">select member</option>
+
+                        <option value="mark@example.com">mark@example.com</option>
+                        <option value="mark@example.com">mark@example.com</option>
+                        <option value="mark@example.com">mark@example.com</option>
+                        <option value="mark@example.com">mark@example.com</option>
+                    </select>
+                    <span aria-label="add members button" class="add-button">Add</span>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
