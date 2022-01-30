@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="css/meetings.css">
     <link rel="stylesheet" href="css/teams.css">
 </head>
+
 <body>
     <div class="menu-container">
         <nav class="menu">
@@ -31,7 +33,7 @@
                     Hello &nbsp;<a href="mailto:jane.doe@example.com" class="nav-email">jane.doe@example.com</a>
                 </li>
                 <li class="logout-menu-item">
-                    Logout
+                   <a href="login.html" class="nav-email"> Logout</a>
                 </li>
             </ul>
         </nav>
@@ -43,67 +45,69 @@
     <div class="teams-container">
         <div class="teams-title-message">View and edit teams you are a part of</div>
         <div class="teams-list">
-        <div class="meetings-card" aria-label="meeting details">
-            <div class="card-top-section">
-                <h2 class="meeting-date">Customer acquisition campaign</h2>
-                <h3>@customer-acquisition</h3>
+            <div class="meetings-card" aria-label="meeting details">
+                <div class="card-top-section">
+                    <h2 class="meeting-date">Customer acquisition campaign</h2>
+                    <h3>@customer-acquisition</h3>
 
-                <p>Team to come up with strategies to win over customers by end of FY2021</p>
-                <div aria-label="Excuse yourself" class="excuse-button">Excuse yourself</div>
+                    <p>Team to come up with strategies to win over customers by end of FY2021</p>
+                    <div aria-label="Excuse yourself" class="excuse-button">Excuse yourself</div>
+                </div>
+                <div class="card-bottom-section">
+                    <h4>
+                        Attendees:
+                    </h4>
+                    <p>
+                        mark@example.com; jane@example.com
+                    </p>
+
+
+                    <select class="arrows">
+                        <option value="select member">select member</option>
+
+                        <option value="mark@example.com">mark@example.com</option>
+                        <option value="mark@example.com">mark@example.com</option>
+                        <option value="mark@example.com">mark@example.com</option>
+                        <option value="mark@example.com">mark@example.com</option>
+                    </select>
+                    <span aria-label="add members button" class="add-button">Add</span>
+
+                </div>
             </div>
-            <div class="card-bottom-section">
-                <h4>
-                    Attendees:
-                </h4>
-                <p>
-                    mark@example.com; jane@example.com
-                </p>
+            <div class="meetings-card" aria-label="meeting details">
+                <div class="card-top-section">
+                    <h2 class="meeting-date">Customer acquisition campaign</h2>
+                    <h3>@customer-acquisition</h3>
+
+                    <p>Team to come up with strategies to win over customers by end of FY2021</p>
+                    <div aria-label="Excuse yourself" class="excuse-button">Excuse yourself</div>
+                </div>
+                <div class="card-bottom-section">
+                    <h4>
+                        Attendees:
+                    </h4>
+                    <p>
+                        mark@example.com; jane@example.com
+                    </p>
 
 
-                <select class="arrows">
-                    <option value="select member">select member</option>
+                    <select class="arrows">
+                        <option value="select member">select member</option>
 
-                    <option value="mark@example.com">mark@example.com</option>
-                    <option value="mark@example.com">mark@example.com</option>
-                    <option value="mark@example.com">mark@example.com</option>
-                    <option value="mark@example.com">mark@example.com</option>
-                </select>
-                <span aria-label="add members button" class="add-button">Add</span>
+                        <option value="mark@example.com">mark@example.com</option>
+                        <option value="mark@example.com">mark@example.com</option>
+                        <option value="mark@example.com">mark@example.com</option>
+                        <option value="mark@example.com">mark@example.com</option>
+                    </select>
+                    <span aria-label="add members button" class="add-button">Add</span>
+
+                </div>
 
             </div>
+            <div class="add-more-meetings"><a href="./meetings-add-meeting.html"><img src="images/plus-solid.svg"
+                        class="add-more-icon" alt="add more"></a></div>
         </div>
-        <div class="meetings-card" aria-label="meeting details">
-            <div class="card-top-section">
-                <h2 class="meeting-date">Customer acquisition campaign</h2>
-                <h3>@customer-acquisition</h3>
-
-                <p>Team to come up with strategies to win over customers by end of FY2021</p>
-                <div aria-label="Excuse yourself" class="excuse-button">Excuse yourself</div>
-            </div>
-            <div class="card-bottom-section">
-                <h4>
-                    Attendees:
-                </h4>
-                <p>
-                    mark@example.com; jane@example.com
-                </p>
-
-
-                <select class="arrows">
-                    <option value="select member">select member</option>
-
-                    <option value="mark@example.com">mark@example.com</option>
-                    <option value="mark@example.com">mark@example.com</option>
-                    <option value="mark@example.com">mark@example.com</option>
-                    <option value="mark@example.com">mark@example.com</option>
-                </select>
-                <span aria-label="add members button" class="add-button">Add</span>
-
-            </div>
-       
-        </div>
-        <div class="add-more-meetings"><img src="images/plus-solid.svg" class="add-more-icon" alt="add more"></div>
-    </div>
     </div>
 </body>
+
 </html>

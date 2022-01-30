@@ -19,7 +19,7 @@ padding-bottom: 30px ;
     height: 65px;
 }
 .add-more-meetings{
-    margin-top: 15px;
+    margin-top: 20px;
     border: 1px solid gray;
     padding: 70px;
     width:fit-content;
@@ -47,9 +47,13 @@ padding-bottom: 30px ;
        
        
     }
+    .teams-container{
+        align-items: center;
+    }
     .add-more-meetings{
         display: flex;
         align-items: center;
         justify-content: center;
+
     }
 }
