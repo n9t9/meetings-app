@@ -1,0 +1,115 @@
+.menu {
+    width: 100%;
+    display: flex;
+    background-color: #F0F0F0;
+}
+.main-menu {
+    list-style-type: none;
+}
+
+.main-menu,
+.logout-menu {
+    display: none;
+}
+
+.logout-menu {
+    list-style-type: none;
+
+
+}
+
+.main-menu-item,
+.logout-menu-item,
+.bars {
+    display: inline-block;
+}
+
+.menu-icon {
+    width: 50px;
+
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 5px;
+    color: gray;
+    height: 80%;
+    margin-right: 10px;
+}
+
+.bars {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 1.25rem;
+    padding: 10px;
+}
+
+.page-name {
+
+    border-bottom: 2px solid gray;
+    width: 97%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    color: black;
+    font-weight: bold;
+}
+
+.page-name h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    color: #303030;
+}
+
+.main-menu-item a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: gray;
+}
+
+.nav-email {
+    text-decoration: none;
+    color: #318CE7;
+}
+
+
+
+@media (min-width: 900px) {
+    .bars {
+        display: none;
+    }
+
+    .menu {
+
+        justify-content: space-between;
+    }
+
+    .main-menu,
+    .logout-menu {
+        padding: 10px;
+    }
+
+    .page-name {
+
+
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+
+    }
+
+    .main-menu,
+    .logout-menu {
+        display: block;
+    }
+
+    .main-menu a,
+    .logout-menu a {
+        padding: 0.25rem 0.5rem;
+    }
+}

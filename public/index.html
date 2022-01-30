@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="external/normalize.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/calendar.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <style>
+        .date-header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .date-header-child h2{
+ font-size: 1.20rem;
+ color: 	#303030;
+        }
+        .date-header-child h3{
+            font-size: 1.15rem;
+            color: #707070;
+        }
+
+        .date-header-child input{
+            display: inline-block;
+            padding: 10px 0;
+            width: 100%;
+            border-radius: 7px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <nav class="menu">
+            <ul class="main-menu">
+                <li class="main-menu-item"><a href="#">Calendar</a></li>
+                <li class="main-menu-item"><a href="#">Meetings</a></li>
+                <li class="main-menu-item"><a href="#">Teams</a></li>
+            </ul>
+            <div class="bars">
+                <h1 class="title">My Meetings</h1>
+                <img src="images/bars-solid.svg" class="menu-icon" alt="main menu icon">
+
+
+            </div>
+            <ul class="logout-menu">
+
+                <li class="logout-menu-item ">
+                    Hello &nbsp;<a href="mailto:jane.doe@example.com" class="nav-email">jane.doe@example.com</a>
+                </li>
+                <li class="logout-menu-item">
+                    Logout
+                </li>
+            </ul>
+        </nav>
+        <div class="page-name">
+           
+            <h2>Calendar</h2>
+        </div>
+
+
+    </div>
+    <div class="date-header">
+        <div class="date-header-child">
+        <h2 aria-label="current date">
+            12 Septermber 2020
+        </h2>
+        <h3 aria-label="current day">
+            Saturday
+        </h3>
+    </div>
+    <div class="date-header-child">
+        <input type="date" value="2020-09-12" aria-label="date input"></div>
+    </div>
+    <div class="calendar-container">
+        
+        <div class="item" aria-label="numbered item">
+            <div class="list-item">
+                1
+            </div>
+        </div>
+       
+        <div class="item" aria-label="numbered item">
+            <div class="list-item">
+                2
+            </div>
+        </div>
+        <div class="item" aria-label="numbered item">
+            <div class="list-item">
+                3
+            </div>
+
+        </div>
+        <div class="item" aria-label="numbered item">
+            <div class="list-item">
+                4
+            </div>
+        </div>
+        <div class="item" aria-label="numbered item">
+            <div class="list-item">
+                5
+            </div>
+        </div>
+        <div class="item" aria-label="numbered item">
+            <div class="list-item">
+                6
+            </div>
+            
+        </div>
+        <div class="item" aria-label="numbered item">
+            <div class="list-item">
+                7
+            </div>
+        </div>
+        <div class="item" aria-label="numbered item">
+            <div class="list-item">
+                8
+            </div>
+        </div>
+        <div class="item" aria-label="numbered item">
+            <div class="list-item">
+                9
+            </div>
+        </div class="list-item">
+        <div class="item" aria-label="numbered item">
+            <div class="list-item">
+                10
+            </div>
+        </div>
+        <div class="project" aria-label="project details">
+            <p>Project Work</p>
+            <hr>
+            <p>
+                Attendees: abcd@email.com
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
